@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.header-wrapper {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-left: 40px;
+}
+
+.header-menu-wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.header-menu-nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-menu-button-wrapper {
+  display: flex;
+  gap: 40px;
+}
+
+.header-menu-items-wrapper {
+  display: flex;
+  gap: 40px;
+}
+
+.header-menu-dropdown-button {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 41%);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+  position: relative;
+}
+
+.header-menu-dropdown-button :hover {
+  color: hsl(0, 0%, 8%);
+}
+
+.header-menu-dropdown-menu-features {
+  display: none;
+  max-width: 150px;
+  width: 100%;
+  max-height: 160px;
+  padding: 20px 0 20px 15px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.12);
+  margin-left: 105px;
+  position: absolute;
+}
+
+.header-menu-dropdown-menu-items {
+  display: flex;
+  gap: 10px;
+  padding: 3px;
+  align-items: center;
+  color: hsl(0, 0%, 41%);
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.header-menu-dropdown-menu-items img {
+  height: 100%;
+}
+
+.header-menu-dropdown-menu-company {
+  display: none;
+  width: 100px;
+  height: 75px;
+  padding: 20px 0 20px 15px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.12);
+  margin-left: 25px;
+  position: absolute;
+}
+
+.header-menu-dropdown-menu-wrapper {
+  display: flex;
+}
+
+.header-menu-login {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
