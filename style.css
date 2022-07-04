@@ -24,6 +24,7 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
+  flex-wrap: wrap;
 }
 
 .header-menu-button-wrapper {
@@ -114,11 +115,12 @@ body {
 }
 
 .header-menu-login {
+  width: 1250px;
   display: flex;
   gap: 40px;
   align-items: center;
   justify-content: flex-end;
-  justify-self: flex-end;
+  flex-wrap: wrap;
 }
 
 .header-menu-login-button {
@@ -144,4 +146,55 @@ body {
 
 .header-menu-login-item:hover {
   color: hsl(0, 0%, 8%);
+}
+
+.text-section {
+  padding-left: 150px;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  gap: 150px;
+}
+
+.text-section-title {
+  font-size: 90px;
+  font-weight: 1500;
+  color: hsl(0, 0%, 8%);
+}
+
+.text-section-paragraph {
+  width: 70%;
+  font-size: 20px;
+  color: hsl(0, 0%, 41%);
+}
+
+.image-section-wrapper img {
+  padding-top: 50px;
+  max-height: 800px;
+  max-width: 550px;
+  height: auto;
+  width: auto;
+}
+
+.text-section-button {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+  font-size: 17px;
+  width: 140px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.text-section-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+}
+
+.text-section-images {
+  display: flex;
+  gap: 40px;
+  margin-top: 140px;
 }
