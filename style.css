@@ -24,7 +24,6 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
-  flex-wrap: wrap;
 }
 
 .header-menu-button-wrapper {
